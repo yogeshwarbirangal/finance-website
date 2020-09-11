@@ -1,0 +1,343 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar{
+
+    margin:1px;
+    padding:1vh;
+   
+}
+
+.navbar-brand
+{
+    margin-left: 5vw;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.nav-item{
+
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin:0 10px;
+    
+}
+
+.title{
+
+    font-size: 60px;
+    font-weight: 600;
+    margin:10px 0;
+}
+.para{
+
+    font-size: 25px;   
+}
+
+
+
+.section-img img
+{
+
+    height:400px;
+    margin:10px 10px;
+
+}
+/* services */
+
+.services{
+
+        text-align: center;
+        font-size: 3.5em;
+        font-weight: 600;
+        margin:30px 0;
+}
+
+.service-img img{
+    height: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.row h2{
+
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.row p{
+
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.service-section
+{
+        margin:8vh 0;
+}
+.service-section a {
+
+    
+    padding:10px 20px;
+    font-size: 25px;
+    font-weight: 600;
+    color:#fff;
+    background:yellowgreen;
+    text-decoration: none;
+}
+
+
+.jumbotron h1{
+
+        font-size: 2.8em;
+        font-weight: 600;
+}
+
+.jumbotron p{
+
+    font-size: 1.8em;
+    font-weight: 500;
+    padding:10px 0;
+}
+
+.jumbotron h4{
+
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.footer{
+
+    background-color: black;
+    color:white;
+}
+.social a{
+
+        text-decoration: none;
+        margin-top:10vh;
+        color:white;
+        font-size: 1.5em;
+        padding:10px 15px;
+  
+}
+/* about us */
+
+.about-img img{
+
+    height:45vh;
+   width: 100%;
+   margin:1px 1px;
+}
+
+.sec-img img{
+
+    height:40vh;
+}
+/* teachers */
+.techheading{
+
+    text-align: center;
+    font-size: 3.5em;
+    font-weight: 600;
+    margin:10vh 0;
+
+}
+
+.teacher img{
+
+        height: 600px;
+}
+
+.card-title{
+
+    font-size: 3em;
+    font-weight: 600;
+}
+.card-text{
+
+    font-size: 1.5em;
+}
+.btn {
+
+    padding:10px 20px;
+    font-size: 1.5em;
+}
+/* carousel css */
+
+.carousel-inner img {
+   
+        height: 80vh;
+        width: 100vw;
+  }
+
+  /* login-form */
+
+  
+  .center {
+
+        width: 430px;
+        margin: 20vh auto;
+        position: relative;
+  }
+
+  .center .header{
+
+        font-size: 2.5em;
+        font-weight: bold;
+        padding: 25px 0 10px 25px;
+        color:white;
+        background: #857488;
+        border-bottom: 1px solid #151116;
+        border-radius: 25px 25px 0 0;
+  }
+
+  .center form{
+
+            position: absolute;
+            background:white;
+            width: 100%;
+            padding: 50px 40px 0 30px;
+            box-sizing: border-box;
+            border: 2px solid #241f25;
+            border-radius: 0 0 25px 25px;
+
+  }
+
+  form label{
+
+            font-size: 1.8em;
+            font-weight: 600;
+            padding:5px 0;
+  }
+
+  form input{
+
+            height: 50px;
+            width: 100%;
+            margin-right: 30px;
+            padding: 0 10px;
+            border-radius: 3px;
+            font-size: 18px;
+            outline:none;
+            border:2px solid rgb(148, 134, 134);
+  }
+
+
+  form input[type="password"]
+{
+    margin-top: 10px;
+}
+
+form input[type="submit"]
+{
+        margin-top: 30px;
+        margin-bottom: 40px;
+        font-size: 1.5em;
+        width: 130px;
+        height: 45px;
+        color: white;
+        cursor: pointer;
+        line-height: 15px;
+        border-radius: 45px;
+        background: #594c5c;
+}
+
+form input[type="submit"]:hover{
+
+    background: #491254;
+    transition: .5s;
+}
+
+form a{
+
+    text-decoration: none;
+    font-size: 18px;
+    color: #7f2092;
+    padding: 0 0 0 20px;
+}
+/* media queries */
+
+@media (max-width:500px)
+{
+    
+    .center {
+
+        width: 300px;
+        margin:20vh auto;
+        position: relative;
+  }
+
+  .center .header{
+
+        font-size: 2em;
+        font-weight: bold;
+        padding: 15px 0 10px 25px;
+        color:white;
+        background: #857488;
+        border-bottom: 2px solid black;
+        border-radius: 25px 25px 0 0;
+  }
+
+    
+  .center form{
+
+    position: absolute; 
+    background:white;
+    width: 100%;
+    padding: 25px 5px 0 40px;
+    box-sizing: border-box;
+    border: 2px solid #241f25;
+    border-radius: 0 0 25px 25px;
+
+}
+
+form label{
+
+    font-size: 1.5em;
+    font-weight: 600;
+    
+}
+
+form input{
+
+    height: 50px;
+    width: 80%;
+    margin-right: 30px;
+    padding: 0 10px;
+    border-radius: 3px;
+    font-size: 18px;
+    outline:none;
+    border:2px solid rgb(148, 134, 134);
+}
+
+
+form input[type="password"]
+{
+margin-top: 5px;
+}
+
+form input[type="submit"]
+{
+margin-top: 30px;
+margin-bottom: 40px;
+font-size: 1.2em;
+width: 130px;
+height: 45px;
+color: white;
+cursor: pointer;
+line-height: 15px;
+border-radius: 45px;
+background: #594c5c;
+}
+
+form input[type="submit"]:hover{
+
+background: #491254;
+transition: .5s;
+}
+   
+        
+}
